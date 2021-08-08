@@ -1,0 +1,29 @@
+tensorflow_lite/tensorflow/lite/micro/kernels/resize_nearest_neighbor.o: \
+ ../tensorflow_lite/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc \
+ C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/reference/resize_nearest_neighbor.h \
+ C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/cppmath.h \
+ C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/types.h \
+ C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/compatibility.h \
+ C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/op_macros.h \
+ C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/c/builtin_op_data.h \
+ C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/c/common.h \
+ C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/tensor_ctypes.h \
+ C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h
+
+C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/reference/resize_nearest_neighbor.h:
+
+C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/cppmath.h:
+
+C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/types.h:
+
+C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/compatibility.h:
+
+C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/op_macros.h:
+
+C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/c/builtin_op_data.h:
+
+C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/c/common.h:
+
+C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/internal/tensor_ctypes.h:
+
+C:/Users/USER/STM32CubeIDE/workspace_1.7.0/nucleo-l432kc-tflite-sine-test/tensorflow_lite/tensorflow/lite/kernels/kernel_util.h:

@@ -1,0 +1,8 @@
+dequantize.cc:41:7:void* tflite::ops::micro::dequantize::Init(TfLiteContext*, const char*, size_t)	8	static
+dequantize.cc:46:14:TfLiteStatus tflite::ops::micro::dequantize::Prepare(TfLiteContext*, TfLiteNode*)	48	static
+types.h:184:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:195:18:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+types.h:487:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	24	static
+common.h:156:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	16	static
+dequantize.cc:77:14:TfLiteStatus tflite::ops::micro::dequantize::Eval(TfLiteContext*, TfLiteNode*)	96	static
+dequantize.cc:151:20:TfLiteRegistration tflite::ops::micro::Register_DEQUANTIZE()	16	static

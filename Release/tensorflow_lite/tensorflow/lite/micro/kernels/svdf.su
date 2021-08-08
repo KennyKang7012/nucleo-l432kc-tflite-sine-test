@@ -1,0 +1,6 @@
+svdf.cc:339:7:void* tflite::ops::micro::svdf::Init(TfLiteContext*, const char*, size_t)	8	static
+svdf.cc:344:14:TfLiteStatus tflite::ops::micro::svdf::Prepare(TfLiteContext*, TfLiteNode*)	104	static
+common.h:156:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	16	static
+activation_utils.h:32:14:float tflite::ops::micro::ActivationValFloat(TfLiteFusedActivation, float)	8	static
+svdf.cc:475:14:TfLiteStatus tflite::ops::micro::svdf::Eval(TfLiteContext*, TfLiteNode*)	120	static
+svdf.cc:518:20:TfLiteRegistration tflite::ops::micro::Register_SVDF()	16	static

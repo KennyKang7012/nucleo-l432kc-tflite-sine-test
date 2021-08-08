@@ -1,0 +1,14 @@
+resize_nearest_neighbor.cc:33:14:TfLiteStatus tflite::ops::micro::resize_nearest_neighbor::Prepare(TfLiteContext*, TfLiteNode*)	0	static
+types.h:184:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:195:18:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+types.h:219:15:void tflite::RuntimeShape::Resize(int)	16	static
+types.h:271:14:int tflite::RuntimeShape::FlatSize() const	8	static
+types.h:286:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	24	static
+types.h:438:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	16	static
+resize_nearest_neighbor.h:27:16:int32_t tflite::reference_ops::GetNearestNeighbor(int, int32_t, int32_t, bool, bool)	16	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	16	static
+resize_nearest_neighbor.cc:98:20:TfLiteRegistration tflite::ops::micro::Register_RESIZE_NEAREST_NEIGHBOR()	16	static
+resize_nearest_neighbor.h:49:13:void tflite::reference_ops::ResizeNearestNeighbor(const tflite::ResizeNearestNeighborParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = long int]	136	static
+resize_nearest_neighbor.h:49:13:void tflite::reference_ops::ResizeNearestNeighbor(const tflite::ResizeNearestNeighborParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = unsigned char]	136	static
+resize_nearest_neighbor.h:49:13:void tflite::reference_ops::ResizeNearestNeighbor(const tflite::ResizeNearestNeighborParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = signed char]	136	static
+resize_nearest_neighbor.cc:60:14:TfLiteStatus tflite::ops::micro::resize_nearest_neighbor::Eval(TfLiteContext*, TfLiteNode*)	120	static

@@ -1,0 +1,19 @@
+test_utils.cc:84:15:TfLiteTensor* tflite::testing::{anonymous}::GetTensor(const TfLiteContext*, int)	0	static
+test_utils.cc:76:7:void* tflite::testing::{anonymous}::GetScratchBuffer(TfLiteContext*, int)	8	static
+test_utils.cc:47:7:void* tflite::testing::{anonymous}::AllocatePersistentBuffer(TfLiteContext*, size_t)	8	static
+test_utils.cc:52:14:TfLiteStatus tflite::testing::{anonymous}::RequestScratchBufferInArena(TfLiteContext*, size_t, int*)	16	static
+test_utils.cc:91:9:uint8_t tflite::testing::F2Q(float, float, float)	0	static
+test_utils.cc:104:8:int8_t tflite::testing::F2QS(float, float, float)	8	static
+test_utils.cc:108:9:int32_t tflite::testing::F2Q32(float, float)	24	static
+test_utils.cc:119:6:void tflite::testing::PopulateContext(TfLiteTensor*, int, tflite::ErrorReporter*, TfLiteContext*)	24	static
+test_utils.cc:153:14:TfLiteTensor tflite::testing::CreateFloatTensor(std::initializer_list<float>, TfLiteIntArray*, bool)	16	static
+test_utils.cc:158:14:TfLiteTensor tflite::testing::CreateBoolTensor(std::initializer_list<bool>, TfLiteIntArray*, bool)	16	static
+test_utils.cc:163:14:TfLiteTensor tflite::testing::CreateQuantizedTensor(const uint8_t*, TfLiteIntArray*, float, float, bool)	16	static
+test_utils.cc:177:14:TfLiteTensor tflite::testing::CreateQuantizedTensor(std::initializer_list<unsigned char>, TfLiteIntArray*, float, float, bool)	16	static
+test_utils.cc:183:14:TfLiteTensor tflite::testing::CreateQuantizedTensor(const int8_t*, TfLiteIntArray*, float, float, bool)	16	static
+test_utils.cc:197:14:TfLiteTensor tflite::testing::CreateQuantizedTensor(std::initializer_list<signed char>, TfLiteIntArray*, float, float, bool)	16	static
+test_utils.cc:203:14:TfLiteTensor tflite::testing::CreateQuantizedTensor(float*, uint8_t*, TfLiteIntArray*, bool)	16	static
+test_utils.cc:217:14:TfLiteTensor tflite::testing::CreateQuantizedTensor(float*, int8_t*, TfLiteIntArray*, bool)	16	static
+test_utils.cc:231:14:TfLiteTensor tflite::testing::CreateQuantizedTensor(float*, int16_t*, TfLiteIntArray*, bool)	16	static
+test_utils.cc:245:14:TfLiteTensor tflite::testing::CreateQuantized32Tensor(const int32_t*, TfLiteIntArray*, float, bool)	16	static
+test_utils.cc:261:14:TfLiteTensor tflite::testing::CreateQuantized32Tensor(std::initializer_list<long int>, TfLiteIntArray*, float, bool)	16	static

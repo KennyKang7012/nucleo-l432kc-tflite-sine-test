@@ -1,0 +1,18 @@
+conv.cc:117:7:void* tflite::ops::micro::conv::Init(TfLiteContext*, const char*, size_t)	8	static
+types.h:184:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:195:18:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+types.h:271:14:int tflite::RuntimeShape::FlatSize() const	8	static
+types.h:385:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	16	static
+types.h:438:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	16	static
+common.h:156:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	16	static
+conv.h:28:13:void tflite::reference_ops::Conv(const tflite::ConvParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*, const tflite::RuntimeShape&, float*)	160	static
+conv.h:101:13:void tflite::reference_ops::Conv(const tflite::ConvParams&, const tflite::RuntimeShape&, const uint8_t*, const tflite::RuntimeShape&, const uint8_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, uint8_t*, const tflite::RuntimeShape&, uint8_t*, void*)	176	static
+conv.h:24:13:void tflite::reference_integer_ops::ConvPerChannel(const tflite::ConvParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, int8_t*)	168	static
+padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	0	static
+conv.cc:79:14:TfLiteStatus tflite::ops::micro::conv::CalculateOpData(TfLiteContext*, TfLiteNode*, const TfLiteConvParams*, int, int, int, int, int, int, TfLiteType, tflite::ops::micro::conv::OpData*)	96	static
+conv.cc:122:14:TfLiteStatus tflite::ops::micro::conv::Prepare(TfLiteContext*, TfLiteNode*)	104	static
+conv.cc:179:6:void tflite::ops::micro::conv::EvalQuantized(TfLiteContext*, TfLiteNode*, TfLiteConvParams*, const tflite::ops::micro::conv::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*)	248	static
+conv.cc:217:6:void tflite::ops::micro::conv::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, TfLiteConvParams*, const tflite::ops::micro::conv::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*)	232	static
+conv.cc:249:6:void tflite::ops::micro::conv::EvalFloat(TfLiteContext*, TfLiteNode*, TfLiteConvParams*, const tflite::ops::micro::conv::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*)	248	static
+conv.cc:281:14:TfLiteStatus tflite::ops::micro::conv::Eval(TfLiteContext*, TfLiteNode*)	56	static
+conv.cc:319:20:TfLiteRegistration tflite::ops::micro::Register_CONV_2D()	16	static

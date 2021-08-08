@@ -1,0 +1,9 @@
+quantize.cc:37:7:void* tflite::ops::micro::quantize::Init(TfLiteContext*, const char*, size_t)	8	static
+quantize.cc:42:14:TfLiteStatus tflite::ops::micro::quantize::Prepare(TfLiteContext*, TfLiteNode*)	48	static
+types.h:184:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:195:18:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+types.h:487:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	24	static
+common.h:156:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	16	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	16	static
+quantize.cc:82:14:TfLiteStatus tflite::ops::micro::quantize::Eval(TfLiteContext*, TfLiteNode*)	104	static
+quantize.cc:156:20:TfLiteRegistration tflite::ops::micro::Register_QUANTIZE()	16	static

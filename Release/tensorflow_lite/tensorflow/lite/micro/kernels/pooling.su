@@ -1,0 +1,18 @@
+types.h:184:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:195:18:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+types.h:385:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	16	static
+types.h:438:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	16	static
+pooling.h:26:13:void tflite::reference_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	136	static
+pooling.h:79:13:void tflite::reference_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const uint8_t*, const tflite::RuntimeShape&, uint8_t*)	128	static
+pooling.h:190:13:void tflite::reference_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	144	static
+pooling.h:240:13:void tflite::reference_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const uint8_t*, const tflite::RuntimeShape&, uint8_t*)	128	static
+pooling.h:24:13:void tflite::reference_integer_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, int8_t*)	128	static
+pooling.h:82:13:void tflite::reference_integer_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, int8_t*)	128	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	16	static
+padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	0	static
+pooling.cc:37:14:TfLiteStatus tflite::ops::micro::pooling::{anonymous}::CalculateOpData(const TfLiteContext*, const TfLitePoolParams*, const TfLiteTensor*, const TfLiteTensor*, tflite::ops::micro::pooling::{anonymous}::OpData*)	56	static
+pooling.cc:212:20:TfLiteRegistration tflite::ops::micro::Register_AVERAGE_POOL_2D()	8	static
+pooling.cc:223:20:TfLiteRegistration tflite::ops::micro::Register_MAX_POOL_2D()	8	static
+kernel_util.h:160:6:void tflite::CalculateActivationRange(TfLiteFusedActivation, T*, T*) [with T = float]	0	static
+pooling.cc:159:14:TfLiteStatus tflite::ops::micro::pooling::AverageEval(TfLiteContext*, TfLiteNode*)	160	static
+pooling.cc:185:14:TfLiteStatus tflite::ops::micro::pooling::MaxEval(TfLiteContext*, TfLiteNode*)	160	static

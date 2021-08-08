@@ -1,0 +1,52 @@
+limits:1204:7:static constexpr long int std::numeric_limits<long int>::min()	4	static
+limits:1207:7:static constexpr long int std::numeric_limits<long int>::max()	4	static
+limits:1668:7:static constexpr float std::numeric_limits<float>::max()	4	static
+limits:1672:7:static constexpr float std::numeric_limits<float>::lowest()	4	static
+types.h:184:3:tflite::RuntimeShape::~RuntimeShape()	16	static
+types.h:194:18:int32_t tflite::RuntimeShape::DimensionsCount() const	16	static
+types.h:195:18:int32_t tflite::RuntimeShape::Dims(int) const	16	static
+types.h:213:25:const int32_t* tflite::RuntimeShape::DimsData() const	16	static
+types.h:217:25:const int32_t* tflite::RuntimeShape::DimsDataUpTo5D() const	16	static
+types.h:271:14:int tflite::RuntimeShape::FlatSize() const	32	static
+types.h:385:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	32	static
+types.h:438:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	32	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	64	static
+common.h:156:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	32	static
+conv.h:28:13:void tflite::reference_ops::Conv(const tflite::ConvParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*, const tflite::RuntimeShape&, float*)	176	static
+conv.h:101:13:void tflite::reference_ops::Conv(const tflite::ConvParams&, const tflite::RuntimeShape&, const uint8_t*, const tflite::RuntimeShape&, const uint8_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, uint8_t*, const tflite::RuntimeShape&, uint8_t*, void*)	184	static
+conv.h:24:13:void tflite::reference_integer_ops::ConvPerChannel(const tflite::ConvParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, int8_t*)	176	static
+padding.h:32:12:int tflite::ComputePaddingWithOffset(int, int, int, int, int, int*)	32	static
+padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	32	static
+padding.h:57:28:TfLitePaddingValues tflite::ComputePaddingHeightWidth(int, int, int, int, int, int, int, int, TfLitePadding, int*, int*)	40	static
+conv.cc:67:20:tflite::PaddingType tflite::ops::micro::conv::RuntimePaddingType(TfLitePadding)	16	static
+conv.cc:79:14:TfLiteStatus tflite::ops::micro::conv::CalculateOpData(TfLiteContext*, TfLiteNode*, const TfLiteConvParams*, int, int, int, int, int, int, TfLiteType, tflite::ops::micro::conv::OpData*)	136	static
+conv.cc:117:7:void* tflite::ops::micro::conv::Init(TfLiteContext*, const char*, size_t)	24	static
+conv.cc:122:14:TfLiteStatus tflite::ops::micro::conv::Prepare(TfLiteContext*, TfLiteNode*)	112	static
+conv.cc:179:6:void tflite::ops::micro::conv::EvalQuantized(TfLiteContext*, TfLiteNode*, TfLiteConvParams*, const tflite::ops::micro::conv::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*)	272	static
+conv.cc:217:6:void tflite::ops::micro::conv::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, TfLiteConvParams*, const tflite::ops::micro::conv::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*)	232	static
+conv.cc:249:6:void tflite::ops::micro::conv::EvalFloat(TfLiteContext*, TfLiteNode*, TfLiteConvParams*, const tflite::ops::micro::conv::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*, TfLiteEvalTensor*)	256	static
+conv.cc:281:14:TfLiteStatus tflite::ops::micro::conv::Eval(TfLiteContext*, TfLiteNode*)	72	static
+conv.cc:319:20:TfLiteRegistration tflite::ops::micro::Register_CONV_2D()	24	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long int]	16	static
+common.h:59:10:T tflite::ActivationFunctionWithMinMax(T, T, T) [with T = float]	24	static
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	56	static
+kernel_util.h:41:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = unsigned char]	16	static
+kernel_util.h:41:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	16	static
+kernel_util.h:35:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = unsigned char]	16	static
+kernel_util.h:41:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:35:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static
+kernel_util.h:160:6:void tflite::CalculateActivationRange(TfLiteFusedActivation, T*, T*) [with T = float]	24	static
+kernel_util.h:41:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	16	static
+kernel_util.h:35:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	16	static
+stl_algobase.h:222:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = float]	16	static
+stl_algobase.h:198:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = float]	16	static
+fixedpoint.h:64:10:tRawType gemmlowp::Dup(typename gemmlowp::FixedPointRawTypeTraits<tRawType>::ScalarRawType) [with tRawType = long int]	16	static
+fixedpoint.h:70:14:tIntegerType gemmlowp::BitAnd(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:140:14:tIntegerType gemmlowp::ShiftRight(tIntegerType, int) [with tIntegerType = long int]	16	static
+fixedpoint.h:199:14:tIntegerType gemmlowp::MaskIfLessThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:94:14:tIntegerType gemmlowp::Add(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:185:14:tIntegerType gemmlowp::MaskIfGreaterThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:156:14:tIntegerType gemmlowp::MaskIfNonZero(tIntegerType) [with tIntegerType = long int]	16	static
+fixedpoint.h:88:14:tIntegerType gemmlowp::BitNot(tIntegerType) [with tIntegerType = long int]	16	static
